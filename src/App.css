@@ -1,13 +1,16 @@
 .App {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .card {
   background-color: rgb(61, 135, 255);
-  margin-top: 2rem;
   padding: 1rem;
   width: 180px;
   height: 180px;
