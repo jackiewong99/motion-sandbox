@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { m, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Card = () => {
   return (
