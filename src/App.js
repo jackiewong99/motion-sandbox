@@ -1,13 +1,13 @@
-import Card from './Components/Card';
-import MenuExample from './Components/MenuExample';
+import React from 'react';
+import Header from './Components/Header';
+import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
-      <MenuExample />
-      {/* <Card /> */}
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
